@@ -1,0 +1,45 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.borda-01{
+    position: absolute;
+    padding: 5px;
+    background-color: black;
+}
+
+.borda-02{
+    padding: 10px;
+    background-color: white;
+}
+
+.borda-03{
+    padding: 10px;
+    background-color: black;
+}
+
+.borda-04{
+    padding: 15px;
+    background-color: blue;
+}
+
+img{
+    background-color: white;
+    opacity : 0.9;
+    padding: 10px;
+}
+
+#texto {
+    position: absolute;
+    font-style: oblique;
+    color: white;
+    font-size: 42px;
+    left: 35%;
+    top: 75%;
+  }
